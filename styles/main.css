@@ -10,11 +10,12 @@
         width: 680px;
         height:420px;
         margin: 0 auto;
+        padding-top: 40px;
         position: relative;
         overflow: hidden;
     }
     #image_slider{
-        position: relative;
+        position: absolute;
         list-style: none;
         overflow: hidden;
         float: left;
@@ -35,8 +36,12 @@
     #prev{
         background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
         left: 0px;
+        cursor: pointer;
+        padding-top: 170px;
     }
     #next{
         background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
         right: 0px;
+        cursor: pointer;
+        padding-top: 170px;
     }
